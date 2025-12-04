@@ -1,0 +1,114 @@
+
+
+body {
+    background-color: #e6f7ff; /* Light Blue background */
+    font-family: Verdana, sans-serif; /* Standard readable font */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+#container {
+    width: 900px;
+    background-color: #ffffff;
+    margin: 30px auto; /* Centers the div */
+    border: 1px solid #000066; /* Navy border */
+    padding: 20px;
+}
+
+/* Header Styling */
+h1 {
+    color: #000066; /* Navy Blue */
+    text-align: center;
+    font-family: Georgia, serif; 
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #000066;
+    border-bottom: 2px solid #ccc;
+    font-family: Georgia, serif;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Navigation Menu */
+.nav-bar {
+    text-align: center;
+    background-color: #000066;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 15px;
+    font-family: Georgia, serif;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+    color: #ffd700; /* Gold color on hover */
+}
+
+/* Paragraph text */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Images */
+.float-img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    width: 300px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: #000066;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    background-color: #f2f2f2; /* Light grey for rows */
+}
+
+/* Footer */
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 12px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    color: #666;
+}
+
+/* Clears floats so layout doesn't break */
+.clearfix {
+    clear: both;
+}
